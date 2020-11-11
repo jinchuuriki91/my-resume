@@ -1,0 +1,154 @@
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage[default]{lato}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+\definecolor{DarkGrey}{HTML}{111111}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+
+\colorlet{name}{DarkGrey}
+\colorlet{tagline}{SlateGrey}
+\colorlet{heading}{DarkGrey}
+\colorlet{headingrule}{DarkGrey}
+\colorlet{accent}{DarkGrey}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\begin{document}
+
+\name{Gandhar Pednekar}
+\tagline{Pythonista}
+\photoR{3.5cm}{image}
+\personalinfo{
+  \email{gandharp@pm.me}
+  \phone{(+91) 954-594-4131}
+  \location{Bengaluru, IN}
+  \homepage{https://gandharp.xyz}
+  \linkedin{https://www.linkedin.com/in/pednekargandhar/}
+  \github{https://github.com/jinchuuriki91}
+}
+
+\makecvheader
+
+\cvsection{Skills}
+\printinfo{Programming Languages:}\\
+\cvtag{Python}
+\cvtag{Java 8}
+\cvtag{Javascript}
+\cvtag{SQL}
+
+\divider\smallskip
+
+\printinfo{Web Development:}\\
+\cvtag{Angular}
+\cvtag{React}
+\cvtag{HTML}
+\cvtag{CSS}
+
+\divider\smallskip
+
+\printinfo{Frameworks:}\\
+\cvtag{Django}
+\cvtag{Flask}
+\cvtag{Dropwizard}
+
+\divider\smallskip
+
+\printinfo{Cloud computing platforms:}\\
+\cvtag{AWS}
+\cvtag{DigitalOcean}
+\cvtag{Heroku}
+
+\cvsection{Experience}
+
+\cvevent{Member of Technical Staff 2}{Fyle}{Sep 2019 -- Sep 2020}{Bengaluru, IN}
+\begin{itemize}
+\item Worked on implementing Customer requested features into the platform
+\item Got exposure to AngularJS for WebApp and Dropwizard a Java framework for building REST APIs
+\item Hands-on experience with building microservices using Docker
+\item Wrote performant SQL queries for retrieving API response from resources
+\item Wrote Design Docs for the feature being implemented, this was a good learning experience
+\item Built a slack bot for Fyle platform so users can interact from Slack itself
+\item Worked on Gmail Add on built using Google App Script which helped users to add expenses from Gmail
+\end{itemize}
+
+\divider\smallskip
+
+\cvevent{Software Engineer}{Reckonsys Tech Labs}{Dec 2018 -- Aug 2019}{Bengaluru, IN}
+\begin{itemize}
+\item Assigned to a project building a Logistics management SaaS platform
+\item Primary role was to plan and execute the implementation
+\item This included communicating with the client wrt project requirements, stages of deliverables and scale of usage
+\item Implemented using Angular, Django and PostgreSQL
+\item Led a team of 4 engineers
+\item Architected database schema and infra setup for production and testing
+\item Worked with Django to build REST APIs and Angular for WebApp
+\end{itemize}
+
+\divider\smallskip
+
+\cvevent{Full Stack Developer}{Finesse Digital}{Oct 2018 -- Nov 2018}{Remote}
+\begin{itemize}
+\item First exposure to working as a remote developer for a Singapore based startup
+\item Mostly worked on backend REST APIs in Django framework
+\item Included writing automated test cases through pipelines
+\end{itemize}
+
+\newpage
+
+\cvevent{Software Engineer}{InTouchApp}{Jan 2016 -- Oct 2018}{Pune, IN}
+\begin{itemize}
+\item Started off as a Front End developer for first 6 months but due to my interest in the
+Python started working with Backend Team resulting in a Full Stack experience
+\item As a Front End developer I’ve worked on InTouchApp WebApp and HTML email templates
+\item As a Backend developer I’ve worked extensively in Django 1.9, tasks included
+creating APIs, writing tests, database schema architecture and monitoring
+\item Built an analytics internal tool using a time series database called InfluxDB
+\item Integrated client analytics SDK tool Countly with InfluxDB, no library out does this
+\item Implemented an incremental backup script for our InfluxDB arch since
+Open source version of above is void of it
+\item Written Chef recipes AWS EC2 Setup and Configure
+\item Setup Bitbucket pipelines for automated testing upon merge of a feature branch
+\item Web crawlers for mining data for InTouchApp features … This was fun! :)
+\end{itemize}
+
+\divider\smallskip
+
+\cvevent{Front End Engineer}{Leova}{Jul 2015 -- Dec 2015}{Hyderabad, IN}
+\begin{itemize}
+\item Built web interface and custom css grid for Leova Flight API developer console
+\item Javascript wrapper for searching flights on Kayak, Expedia and Hipmunk
+\item Demo Chromecast app using Leova Flight API
+\item Leova forum for platform users to post Q\&A regarding Leova Flight API
+\item Built analytics tool for Leova Flight API
+\item Web scrapper to extract food items data from eat24.com
+\item Python script to organise the scrapped data for Leova Food API
+\item Virtual File System for faster web development on Google App Engine
+\end{itemize}
+
+\divider\smallskip
+
+\cvevent{Intern}{WeChat}{Jul 2014 -- Sept 2014}{Pune, IN}
+
+\smallskip
+
+\cvsection{Education}
+
+\cvevent{B.E.\ in Computer Engineering}{Maharashtra Institute of Technology, Pune}{}{}
+
+\divider
+
+\cvevent{H.S.C.}{RCF Jr. College, Alibag}{}{}
+
+\divider
+
+\cvevent{S.S.C.}{St. Mary's Convent School, Alibag}{}{}
+
+\end{document}
+
